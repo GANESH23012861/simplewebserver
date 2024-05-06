@@ -1,5 +1,5 @@
 # EX01 Developing a Simple Webserver
-## Date:
+## Date:14.03.2024
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -21,27 +21,62 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-<!DOCTYPE html>
+```
 <html>
 <head>
- <title>Using Python's SimpleHTTPServer Module</title>
- <style>
- #rectangle {
- height: 50px;
- width: 100px;
- background-color: #00f28f;
- }
- </style>
+<title> My Web Server</title>
 </head>
 <body>
- <h2>Rectangle served by SimpleHTTPServer</h2>
- <div id="rectangle"></div>
+<h1>Top Five Revenue from Companies</h1>
+<table border=2>
+<tr>
+<th> Company Name </th>
+<th> Revenue </th>
+<th> Financial Year </th>
+</tr>
+
+<tr>
+<td> Microsoft </td>
+<td> 86$ </td>
+<td> 2014 </td>
+</tr>
+
+<tr>
+<td> Oracle </td>
+<td> 37$ </td>
+<td> 2013 </td>
+</tr>
+
+<tr>
+<td> SAP </td>
+<td> 20$ </td>
+<td> 2013 </td>
+</tr>
+
+<tr>
+<td> VMware </td>
+<td> 5.2$ </td>
+<td> 2013 </td>
+</tr>
+
+<tr>
+<td> CA Technologies </td>
+<td> 4.7$ </td>
+<td> 2013 </td>
+</tr>
+
 </body>
 </html>
 
 
+```
+
+
+
+
 ## OUTPUT:
-![image](https://github.com/GANESH23012861/simplewebserver/assets/147139861/cd37f6bf-c74b-448d-aa7f-8a3c533ccbdc)
+![image](https://github.com/GANESH23012861/simplewebserver/assets/147139861/ef2a7e17-4a16-4784-af10-361ddf85fe49)
+
 
 
 
